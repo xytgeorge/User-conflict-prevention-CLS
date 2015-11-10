@@ -1,0 +1,111 @@
+/*  const char *profile1 = "id:432,T:19,C:5000,E:465,L:1,AT:0.30,AC:0.25,AE:0.10,AL:0.35";
+  const char *profile2 = "id:235,T:20,C:4500,E:335,L:0,AT:0.10,AC:0.15,AE:0.15,AL:0.60";
+  const char *profile3 = "id:679,T:21,C:4000,E:355,L:0,AT:0.30,AC:0.30,AE:0.20,AL:0.20";
+  const char *profile4 = "id:614,T:22,C:3500,E:375,L:0,AT:0.25,AC:0.25,AE:0.25,AL:0.25";
+  const char *profile5 = "id:918,T:23,C:3000,E:475,L:0,AT:0.20,AC:0.30,AE:0.15,AL:0.35";
+  const char *profile6 = "id:119,T:24,C:3500,E:405,L:1,AT:0.30,AC:0.20,AE:0.40,AL:0.10";
+  const char *profile7 = "id:203,T:25,C:4000,E:425,L:0,AT:0.60,AC:0.20,AE:0.15,AL:0.05";
+  const char *profile8 = "id:485,T:26,C:4500,E:345,L:1,AT:0.30,AC:0.25,AE:0.15,AL:0.30";
+  const char *profile9 = "id:459,T:27,C:5000,E:365,L:0,AT:0.30,AC:0.30,AE:0.20,AL:0.20";
+  const char *profile10 = "id:570,T:27,C:4500,E:385,L:0,AT:0.45,AC:0.25,AE:0.15,AL:0.15";
+  const char *profile11 = "id:487,T:26,C:4000,E:485,L:1,AT:0.30,AC:0.25,AE:0.10,AL:0.35";
+  const char *profile12 = "id:236,T:25,C:3500,E:495,L:0,AT:0.10,AC:0.15,AE:0.15,AL:0.60";
+  const char *profile13 = "id:677,T:24,C:3000,E:445,L:1,AT:0.30,AC:0.30,AE:0.20,AL:0.20";
+  const char *profile14 = "id:414,T:23,C:3500,E:395,L:0,AT:0.25,AC:0.25,AE:0.25,AL:0.25";
+  const char *profile15 = "id:581,T:22,C:4000,E:415,L:0,AT:0.20,AC:0.30,AE:0.15,AL:0.35";
+  const char *profile16 = "id:910,T:21,C:4500,E:325,L:0,AT:0.30,AC:0.20,AE:0.40,AL:0.10";
+  const char *profile17 = "id:333,T:20,C:5000,E:435,L:0,AT:0.60,AC:0.20,AE:0.15,AL:0.05";
+  const char *profile18 = "id:105,T:19,C:4000,E:455,L:1,AT:0.30,AC:0.25,AE:0.15,AL:0.30";
+  const char *profile19 = "id:449,T:25,C:4500,E:400,L:1,AT:0.30,AC:0.20,AE:0.10,AL:0.40";
+  const char *profile20 = "id:762,T:25,C:4500,E:400,L:1,AT:0.30,AC:0.20,AE:0.10,AL:0.40";
+
+
+/*
+
+  const char *profile1 = "id:105,T:19,C:4000,E:455,L:1,AT:0.30,AC:0.25,AE:0.15,AL:0.30";
+  const char *profile2 = "id:333,T:20,C:5000,E:435,L:0,AT:0.60,AC:0.20,AE:0.15,AL:0.05";
+  const char *profile3 = "id:679,T:21,C:4000,E:355,L:0,AT:0.30,AC:0.30,AE:0.20,AL:0.20";
+  const char *profile4 = "id:614,T:22,C:3500,E:375,L:0,AT:0.25,AC:0.25,AE:0.25,AL:0.25";
+  const char *profile5 = "id:918,T:23,C:3000,E:475,L:0,AT:0.20,AC:0.30,AE:0.15,AL:0.35";
+  const char *profile6 = "id:119,T:24,C:3500,E:405,L:1,AT:0.30,AC:0.20,AE:0.40,AL:0.10";
+  const char *profile7 = "id:203,T:25,C:4000,E:425,L:0,AT:0.60,AC:0.20,AE:0.15,AL:0.05";
+  const char *profile8 = "id:485,T:26,C:4500,E:345,L:1,AT:0.30,AC:0.25,AE:0.15,AL:0.30";
+  const char *profile9 = "id:459,T:27,C:5000,E:365,L:0,AT:0.30,AC:0.30,AE:0.20,AL:0.20";
+  const char *profile10 = "id:570,T:27,C:4500,E:385,L:0,AT:0.45,AC:0.25,AE:0.15,AL:0.15";
+  const char *profile11 = "id:487,T:26,C:4000,E:485,L:1,AT:0.30,AC:0.25,AE:0.10,AL:0.35";
+  const char *profile12 = "id:236,T:25,C:3500,E:495,L:0,AT:0.10,AC:0.15,AE:0.15,AL:0.60";
+  const char *profile13 = "id:677,T:24,C:3000,E:445,L:1,AT:0.30,AC:0.30,AE:0.20,AL:0.20";
+  const char *profile14 = "id:414,T:23,C:3500,E:395,L:0,AT:0.25,AC:0.25,AE:0.25,AL:0.25";
+  const char *profile15 = "id:581,T:22,C:4000,E:415,L:0,AT:0.20,AC:0.30,AE:0.15,AL:0.35";
+  const char *profile16 = "id:910,T:21,C:4500,E:325,L:0,AT:0.30,AC:0.20,AE:0.40,AL:0.10";
+  const char *profile17 = "id:235,T:20,C:4500,E:335,L:0,AT:0.10,AC:0.15,AE:0.15,AL:0.60";
+  const char *profile18 = "id:432,T:19,C:5000,E:465,L:1,AT:0.30,AC:0.25,AE:0.10,AL:0.35";
+  const char *profile19 = "id:449,T:25,C:4500,E:400,L:1,AT:0.30,AC:0.20,AE:0.10,AL:0.40";
+  const char *profile20 = "id:762,T:25,C:4500,E:400,L:1,AT:0.30,AC:0.20,AE:0.10,AL:0.40";
+
+
+  const char *profile1 = "id:105,T:19,C:4000,E:455,L:1,AT:0.30,AC:0.25,AE:0.15,AL:0.30";
+  const char *profile2 = "id:333,T:20,C:5000,E:435,L:0,AT:0.60,AC:0.20,AE:0.15,AL:0.05";
+  const char *profile3 = "id:432,T:19,C:5000,E:465,L:1,AT:0.30,AC:0.25,AE:0.10,AL:0.35";
+  const char *profile4 = "id:614,T:22,C:3500,E:375,L:0,AT:0.25,AC:0.25,AE:0.25,AL:0.25";
+  const char *profile5 = "id:459,T:27,C:5000,E:365,L:0,AT:0.30,AC:0.30,AE:0.20,AL:0.20";
+  const char *profile6 = "id:570,T:27,C:4500,E:385,L:0,AT:0.45,AC:0.25,AE:0.15,AL:0.15";
+  const char *profile7 = "id:203,T:25,C:4000,E:425,L:0,AT:0.60,AC:0.20,AE:0.15,AL:0.05";
+  const char *profile8 = "id:485,T:26,C:4500,E:345,L:1,AT:0.30,AC:0.25,AE:0.15,AL:0.30";
+  const char *profile9 = "id:918,T:23,C:3000,E:475,L:0,AT:0.20,AC:0.30,AE:0.15,AL:0.35";
+  const char *profile10 = "id:119,T:24,C:3500,E:405,L:1,AT:0.30,AC:0.20,AE:0.40,AL:0.10";
+  const char *profile11 = "id:487,T:26,C:4000,E:485,L:1,AT:0.30,AC:0.25,AE:0.10,AL:0.35";
+  const char *profile12 = "id:236,T:25,C:3500,E:495,L:0,AT:0.10,AC:0.15,AE:0.15,AL:0.60";
+  const char *profile13 = "id:677,T:24,C:3000,E:445,L:1,AT:0.30,AC:0.30,AE:0.20,AL:0.20";
+  const char *profile14 = "id:414,T:23,C:3500,E:395,L:0,AT:0.25,AC:0.25,AE:0.25,AL:0.25";
+  const char *profile15 = "id:581,T:22,C:4000,E:415,L:0,AT:0.20,AC:0.30,AE:0.15,AL:0.35";
+  const char *profile16 = "id:910,T:21,C:4500,E:325,L:0,AT:0.30,AC:0.20,AE:0.40,AL:0.10";
+  const char *profile17 = "id:235,T:20,C:4500,E:335,L:0,AT:0.10,AC:0.15,AE:0.15,AL:0.60";
+  const char *profile18 = "id:679,T:21,C:4000,E:355,L:0,AT:0.30,AC:0.30,AE:0.20,AL:0.20";
+  const char *profile19 = "id:449,T:25,C:4500,E:400,L:1,AT:0.30,AC:0.20,AE:0.10,AL:0.40";
+  const char *profile20 = "id:762,T:25,C:4500,E:400,L:1,AT:0.30,AC:0.20,AE:0.10,AL:0.40";
+
+
+  const char *profile1 = "id:105,T:19,C:4000,E:455,L:1,AT:0.30,AC:0.25,AE:0.15,AL:0.30";
+  const char *profile2 = "id:235,T:20,C:4500,E:335,L:0,AT:0.10,AC:0.15,AE:0.15,AL:0.60";
+  const char *profile3 = "id:679,T:21,C:4000,E:355,L:0,AT:0.30,AC:0.30,AE:0.20,AL:0.20";
+  const char *profile4 = "id:614,T:22,C:3500,E:375,L:0,AT:0.25,AC:0.25,AE:0.25,AL:0.25";
+  const char *profile5 = "id:918,T:23,C:3000,E:475,L:0,AT:0.20,AC:0.30,AE:0.15,AL:0.35";
+  const char *profile6 = "id:119,T:24,C:3500,E:405,L:1,AT:0.30,AC:0.20,AE:0.40,AL:0.10";
+  const char *profile7 = "id:203,T:25,C:4000,E:425,L:0,AT:0.60,AC:0.20,AE:0.15,AL:0.05";
+  const char *profile8 = "id:485,T:26,C:4500,E:345,L:1,AT:0.30,AC:0.25,AE:0.15,AL:0.30";
+  const char *profile9 = "id:459,T:27,C:5000,E:365,L:0,AT:0.30,AC:0.30,AE:0.20,AL:0.20";
+  const char *profile10 = "id:570,T:27,C:4500,E:385,L:0,AT:0.45,AC:0.25,AE:0.15,AL:0.15";
+  const char *profile11 = "id:487,T:26,C:4000,E:485,L:1,AT:0.30,AC:0.25,AE:0.10,AL:0.35";
+  const char *profile12 = "id:236,T:25,C:3500,E:495,L:0,AT:0.10,AC:0.15,AE:0.15,AL:0.60";
+  const char *profile13 = "id:677,T:24,C:3000,E:445,L:1,AT:0.30,AC:0.30,AE:0.20,AL:0.20";
+  const char *profile14 = "id:414,T:23,C:3500,E:395,L:0,AT:0.25,AC:0.25,AE:0.25,AL:0.25";
+  const char *profile15 = "id:581,T:22,C:4000,E:415,L:0,AT:0.20,AC:0.30,AE:0.15,AL:0.35";
+  const char *profile16 = "id:910,T:21,C:4500,E:325,L:0,AT:0.30,AC:0.20,AE:0.40,AL:0.10";
+  const char *profile17 = "id:333,T:20,C:5000,E:435,L:0,AT:0.60,AC:0.20,AE:0.15,AL:0.05";
+  const char *profile18 = "id:432,T:19,C:5000,E:465,L:1,AT:0.30,AC:0.25,AE:0.10,AL:0.35";
+  const char *profile19 = "id:449,T:25,C:4500,E:400,L:1,AT:0.30,AC:0.20,AE:0.10,AL:0.40";
+  const char *profile20 = "id:762,T:25,C:4500,E:400,L:1,AT:0.30,AC:0.20,AE:0.10,AL:0.40";
+
+
+  const char *profile12 = "id:105,T:19,C:4000,E:455,L:1,AT:0.30,AC:0.25,AE:0.15,AL:0.30";
+  const char *profile17 = "id:235,T:20,C:4500,E:335,L:0,AT:0.10,AC:0.15,AE:0.15,AL:0.60";
+  const char *profile18 = "id:679,T:21,C:4000,E:355,L:0,AT:0.30,AC:0.30,AE:0.20,AL:0.20";
+  const char *profile3 = "id:614,T:22,C:3500,E:375,L:0,AT:0.25,AC:0.25,AE:0.25,AL:0.25";
+  const char *profile9 = "id:918,T:23,C:3000,E:475,L:0,AT:0.20,AC:0.30,AE:0.15,AL:0.35";
+  const char *profile10 = "id:119,T:24,C:3500,E:405,L:1,AT:0.30,AC:0.20,AE:0.40,AL:0.10";
+  const char *profile1 = "id:203,T:25,C:4000,E:425,L:0,AT:0.60,AC:0.20,AE:0.15,AL:0.05";
+  const char *profile8 = "id:485,T:26,C:4500,E:345,L:1,AT:0.30,AC:0.25,AE:0.15,AL:0.30";
+  const char *profile5 = "id:459,T:27,C:5000,E:365,L:0,AT:0.30,AC:0.30,AE:0.20,AL:0.20";
+  const char *profile6 = "id:570,T:27,C:4500,E:385,L:0,AT:0.45,AC:0.25,AE:0.15,AL:0.15";
+  const char *profile11 = "id:487,T:26,C:4000,E:485,L:1,AT:0.30,AC:0.25,AE:0.10,AL:0.35";
+  const char *profile7 = "id:236,T:25,C:3500,E:495,L:0,AT:0.10,AC:0.15,AE:0.15,AL:0.60";
+  const char *profile13 = "id:677,T:24,C:3000,E:445,L:1,AT:0.30,AC:0.30,AE:0.20,AL:0.20";
+  const char *profile16 = "id:414,T:23,C:3500,E:395,L:0,AT:0.25,AC:0.25,AE:0.25,AL:0.25";
+  const char *profile15 = "id:581,T:22,C:4000,E:415,L:0,AT:0.20,AC:0.30,AE:0.15,AL:0.35";
+  const char *profile2 = "id:910,T:21,C:4500,E:325,L:0,AT:0.30,AC:0.20,AE:0.40,AL:0.10";
+  const char *profile14 = "id:333,T:20,C:5000,E:435,L:0,AT:0.60,AC:0.20,AE:0.15,AL:0.05";
+  const char *profile4 = "id:432,T:19,C:5000,E:465,L:1,AT:0.30,AC:0.25,AE:0.10,AL:0.35";
+  const char *profile19 = "id:449,T:25,C:4500,E:400,L:1,AT:0.30,AC:0.20,AE:0.10,AL:0.40";
+  const char *profile20 = "id:762,T:25,C:4500,E:400,L:1,AT:0.30,AC:0.20,AE:0.10,AL:0.40";
+
